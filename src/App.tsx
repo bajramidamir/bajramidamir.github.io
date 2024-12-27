@@ -3,7 +3,9 @@ import Templates from "./pages/Templates";
 import Components from "./pages/Components";
 import ContactForm from "./pages/ContactForm";
 import { Spacer } from "tempest-ui";
-import ComponentsGrid from "./pages/ComponentsGrid";
+import LoginForm from "./pages/LoginForm";
+import UnderConstruction from "./pages/UnderConstruction";
+//import FourOhFour from "./pages/FourOhFour";
 
 function App() {
   return (
@@ -11,10 +13,15 @@ function App() {
       <Welcome />
       <Spacer space={64} />
       <Components />
-      <ComponentsGrid />
       <Spacer space={64} />
       <Templates />
       <ContactForm />
+      <Spacer space={64} />
+      <hr />
+      <LoginForm />
+      <Spacer space={64} />
+      <Spacer space={512} />
+      <UnderConstruction />
     </>
   );
 }

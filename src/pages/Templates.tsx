@@ -1,7 +1,6 @@
-import React from "react";
 import { Container, Text } from "tempest-ui";
 
-const Templates = () => {
+const Templates: React.FC = () => {
   return (
     <Container>
       <Text variant="extra-large" color="primary">
