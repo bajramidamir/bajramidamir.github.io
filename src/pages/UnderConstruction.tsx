@@ -9,7 +9,11 @@ const UnderConstruction: React.FC = () => {
         <span style={{ color: "var(--color-primary)" }}>.</span>
       </Text>
       <Loader />
-      <img src="construction.svg" alt="" />
+      <img
+        style={{ maxInlineSize: "100%", blockSize: "auto" }}
+        src="construction.svg"
+        alt=""
+      />
     </Container>
   );
 };
