@@ -1,19 +1,38 @@
 import React from "react";
-import { Loader, Text, Container, Spacer } from "tempest-ui";
+import { Text, Container, Link, Button } from "tempest-ui";
 
 const FourOhFour: React.FC = () => {
   return (
     <>
       <Container>
         <Text variant="h3">A 404 page</Text>
+        <Link
+          href="https://github.com/bajramidamir/tempest-ui/blob/main/src/templates/FourOhFour.tsx"
+          target="_blank"
+        >
+          <Button color="primary" variant="text">
+            Source Code
+          </Button>
+        </Link>
       </Container>
 
       <Container layout="centered">
         <Text variant="extra-large">
-          Oops. The page you are looking for has gone missing...
+          <span style={{ color: "var(--color-primary)" }}>404</span>
         </Text>
-        <Spacer space={128} />
-        <Loader />
+        <Text variant="extra-large">
+          Hey, we've looked{" "}
+          <span style={{ color: "var(--color-primary)" }}>everywhere</span> and
+          we could not find this page.
+        </Text>
+        <Text>Why not try going back?</Text>
+        <Container layout="centered" margin="0" padding="0">
+          <Link href="#">
+            <Button variant="text" color="primary">
+              Take me back!
+            </Button>
+          </Link>
+        </Container>
       </Container>
     </>
   );

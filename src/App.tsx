@@ -5,7 +5,8 @@ import ContactForm from "./pages/ContactForm";
 import { Spacer } from "tempest-ui";
 import LoginForm from "./pages/LoginForm";
 import UnderConstruction from "./pages/UnderConstruction";
-//import FourOhFour from "./pages/FourOhFour";
+import FourOhFour from "./pages/FourOhFour";
+import Offers from "./pages/Offers";
 
 function App() {
   return (
@@ -20,6 +21,13 @@ function App() {
       <hr />
       <LoginForm />
       <Spacer space={64} />
+      <hr />
+      <FourOhFour />
+      <Spacer space={64} />
+      <hr />
+      <Offers />
+      <Spacer space={64} />
+      <hr />
       <Spacer space={512} />
       <UnderConstruction />
     </>
