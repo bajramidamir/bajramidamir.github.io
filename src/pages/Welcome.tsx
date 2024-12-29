@@ -12,6 +12,15 @@ const Welcome: React.FC = () => {
         <span style={{ color: "var(--color-primary)" }}>improved</span> way to
         build functional and beautiful UIs.
       </Text>
+      <Text variant="small">
+        Don't forget to check out the{" "}
+        <Link
+          href="https://damirs-organization.gitbook.io/tempest-ui-docs"
+          target="_blank"
+        >
+          docs
+        </Link>
+      </Text>
       <Container layout="grid" margin="0" padding="0">
         <Link href="https://github.com/bajramidamir/tempest-ui" target="_blank">
           <Button variant="text">
@@ -24,7 +33,6 @@ const Welcome: React.FC = () => {
           </Button>
         </Link>
       </Container>
-
       <Blockquote language="bash" copyable={true}>
         npm install tempest-ui
       </Blockquote>
