@@ -30,9 +30,7 @@ const Offers: React.FC = () => {
           image="https://picsum.photos/1000"
           actions={
             <Container margin="0" padding="0" layout="centered">
-              <Button color="primary" variant="text">
-                Subscribe
-              </Button>
+              <Button color="primary">Subscribe</Button>
             </Container>
           }
         />
@@ -49,9 +47,7 @@ const Offers: React.FC = () => {
           image="https://picsum.photos/1000"
           actions={
             <Container margin="0" padding="0" layout="centered">
-              <Button color="primary" variant="text">
-                Subscribe
-              </Button>
+              <Button color="primary">Subscribe</Button>
             </Container>
           }
         />
@@ -68,9 +64,7 @@ const Offers: React.FC = () => {
           image="https://picsum.photos/1000"
           actions={
             <Container margin="0" padding="0" layout="centered">
-              <Button color="primary" variant="text">
-                Subscribe
-              </Button>
+              <Button color="primary">Subscribe</Button>
             </Container>
           }
         />
