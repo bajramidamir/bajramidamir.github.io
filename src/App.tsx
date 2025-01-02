@@ -7,6 +7,7 @@ import LoginForm from "./pages/LoginForm";
 import UnderConstruction from "./pages/UnderConstruction";
 import FourOhFour from "./pages/FourOhFour";
 import Offers from "./pages/Offers";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
       <hr />
       <Offers />
       <Spacer space={64} />
+      <hr />
+      <LandingPage />
       <hr />
       <Spacer space={512} />
       <UnderConstruction />

@@ -69,7 +69,10 @@ const ContactForm: React.FC = () => {
       </Container>
 
       <Container layout="centered">
-        <Text variant="h1">Interested in what you see? Contact us!</Text>
+        <Text variant="h1">
+          <span style={{ color: "var(--color-primary)" }}>Interested</span> in
+          what you see? Contact us!
+        </Text>
         <Text>A small message goes a long way!</Text>
         <Form onSubmit={handleSubmit}>
           <Input
